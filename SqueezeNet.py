@@ -1,6 +1,6 @@
 from keras.layers.core import Activation,Dropout,Flatten,Dense
 from keras.layers.convolutional import Conv2D,MaxPooling2D
-from keras.layers import concatenate,AveragePooling2D
+from keras.layers import concatenate
 from keras.regularizers import l2
 from keras import backend as K
 from keras.layers import Input 
